@@ -264,6 +264,10 @@ section#contact {
     width: 100%;
     text-align: center;
   }
+  form .btn-warning:hover
+  {
+    background-color:  #b6532c;
+  }
   
   .copyright {
     text-align: center;
@@ -376,12 +380,14 @@ align-items: center;
 color: #FFFFFF;
 }
 
-/* .btn{
-    background-color: rgb(222, 103, 56);
+ .card .btn{
+    background-color:#EF5F25;
     border: none;
     width: 178px;
+    position: relative;
+    left: 20%;
 }
 
-.btn:hover{
-    background-color:  rgb(222, 103, 56);
-} */
+.card .btn:hover{
+    background-color:  #b6532c;
+} 
